@@ -7,6 +7,13 @@
   <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+      <id>codeartifact</id>
+      <name>maven-repos</name>
+      <url>https://codainfra-staging-461837736704.d.codeartifact.eu-central-1.amazonaws.com/maven/maven-repos/</url>
+    </repository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
